@@ -29,8 +29,8 @@ class BankAccount {
         return `You have withdrew £${amount}. Your new balance is £${this.balance}`;
     }
 
-    checkBalance(amount){
-        return `You currently have £${amount} in your account.`;
+    checkBalance(){
+        return `You currently have £${this.balance} in your account.`;
     }
 }
 
